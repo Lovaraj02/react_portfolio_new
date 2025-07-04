@@ -59,7 +59,7 @@ const Hero = () => {
               <a href="https://github.com/Lovaraj02" target="_blank" rel="noopener noreferrer" className="hero-link">
                 GitHub
               </a>
-              <a href="file:///C:/Users/rajub/Desktop/Lovaraju_Software_dev_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hero-link">
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hero-link">
                 Resume
               </a>
             </div>
