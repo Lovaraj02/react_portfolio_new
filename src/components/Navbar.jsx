@@ -48,7 +48,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <div className="nav-logo">
-          <span>Lova Raju</span>
+          <span>Jaya Lova Raju</span>
         </div>
         
         <div className="nav-menu">
@@ -64,7 +64,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         </div>
 
         <button className="theme-toggle" onClick={toggleDarkMode}>
-          {darkMode ? '☀️' : '🌙'}
+          {darkMode ? '☀️' : <i class="fa-solid fa-face-smile"></i>}
         </button>
       </div>
     </nav>

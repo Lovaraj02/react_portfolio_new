@@ -9,8 +9,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a passionate software developer with a strong foundation in web development and AI/ML technologies. 
-              Currently pursuing my B.Tech in AI & Data Science, I love turning ideas into reality through code.
+              A passionate software developer and B.Tech graduate in AI & Data Science, I specialize in web development and AI/ML, turning ideas into impactful digital solutions through code.
             </p>
             <div className="about-stats">
               <div className="stat">

@@ -11,7 +11,7 @@ const Projects = () => {
       tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT"],
       liveLink: "https://mern-hungry-app-ggs4.vercel.app/",
       features: ["User Authentication", "Real-time Orders", "Payment Gateway", "Admin Dashboard"],
-      image: "/public/assets/hungry.jpg"
+      // image: "/public/assets/hungry.jpg"
     },
     {
       name: "Netflix Clone",
@@ -19,7 +19,7 @@ const Projects = () => {
       tech: ["React.js", "Node.js", "MongoDB", "TMDB API"],
       liveLink: "https://netflixclone-cyan-six.vercel.app/",  
       features: ["Movie Streaming", "Search & Filter", "User Profiles", "Responsive Design"],
-      image: "/public/assets/netflix.png"
+      // image: "/public/assets/netflix.png"
     },
     {
       name: "Shopping Web App",
@@ -27,7 +27,7 @@ const Projects = () => {
       tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
       liveLink: "https://shopping-web-app-ten.vercel.app/",
       features: ["Product Catalog", "Shopping Cart", "Order Management", "User Reviews"],
-      image: "/public/assets/shop.avif"
+      // image: "/public/assets/shop.avif"
     }
   ];
 
@@ -50,13 +50,13 @@ const Projects = () => {
           
           <div className="project-content">
             <div className="project-card">
-              <div className="project-image-wrapper">
+              {/* <div className="project-image-wrapper">
                 <img 
-                  src={projects[activeProject].image} 
-                  alt={projects[activeProject].name}
+                  // src={projects[activeProject].image} 
+                  // alt={projects[activeProject].name}
                   className="project-image"
                 />
-              </div>
+              </div> */}
               <h3>{projects[activeProject].name}</h3>
               <p>{projects[activeProject].description}</p>
               

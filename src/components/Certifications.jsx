@@ -5,25 +5,25 @@ const Certifications = () => {
     {
       title: "Python Certification",
       issuer: "Kaggle",
-      icon: "🐍",
+      icon: <i class="fa-brands fa-python"></i>,
       link: "/certificates/python.jpg"
     },
     {
       title: "Machine Learning",
       issuer: "Verzeo",
-      icon: "🤖",
+      icon: <i class="fa-solid fa-laptop-code"></i>,
       link: "/certificates/ml.jpg"
     },
     {
       title: "AI & ML Certification",
       issuer: "EduSkills",
-      icon: "🧠",
+      icon: <i class="fa-solid fa-hexagon-nodes"></i>,
       link: "/certificates/aws.pdf"
     },
     {
       title: "SQL Certification",
       issuer: "HackerRank",
-      icon: "🗄️",
+      icon: <i class="fa-solid fa-file"></i>,
       link: "/certificates/sql.pdf"
     }
   ];

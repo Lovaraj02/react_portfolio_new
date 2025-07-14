@@ -8,14 +8,14 @@ const CodingProfiles = () => {
       achievement: "5★ Problem Solving",
       description: "Achieved 5-star rating in problem solving with consistent performance",
       link: "https://www.hackerrank.com/profile/lovaraj02",
-      icon: "⭐"
+      // icon: "⭐"
     },
     {
       platform: "GeeksforGeeks",
       achievement: "120+ Problems Solved",
       description: "Active problem solver with focus on data structures and algorithms",
       link: "https://www.geeksforgeeks.org/user/raju4502/",
-      icon: "💚"
+      // icon: "💚"
     }
   ];
 

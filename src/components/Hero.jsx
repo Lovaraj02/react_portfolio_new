@@ -8,7 +8,7 @@ const Hero = () => {
 
   const roles = [
     'Aspiring Software Developer',
-    'Web Developer',
+    'Full stack Developer',
     'AI & ML Enthusiast'
   ];
 
@@ -47,7 +47,7 @@ const Hero = () => {
               <span className="cursor">|</span>
             </div>
             <p className="hero-description">
-              Passionate about creating innovative solutions through code and exploring the endless possibilities of technology.
+              Passionate about building innovative, user-focused digital solutions through clean and efficient code. I thrive on solving real-world problems with technology and continuously exploring new ways to create meaningful impact through software.
             </p>
             <div className="hero-links">
               <a href="mailto:rajubandaru2255@gmail.com" className="hero-link">

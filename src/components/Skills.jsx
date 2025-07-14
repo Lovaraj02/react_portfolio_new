@@ -5,13 +5,13 @@ const Skills = () => {
   const [animateSkills, setAnimateSkills] = useState(false);
 
   const skillImages = {
-    "Node.js": "/skills/node.png",
-    "Express.js": "/skills/express.png",
-    "MongoDB": "/skills/mongo.jpeg",
+    "Node.js": '/skills/n.png',
+    "Express.js": "/skills/ex.png",
+    "MongoDB": "/skills/m.png",
     "REST APIs": "/skills/api.png",
     "React.js": "/skills/react.jpeg",
-    "JavaScript": "/skills/js.png",
-    "CSS": "/skills/css.png",
+    "JavaScript": "/skills/jas.jpg",
+    "CSS": "/skills/cs.jpg",
     "HTML": "/skills/html.jpeg",
     "C": "/skills/c.jpeg",
     "Java": "/skills/java.jpeg",
@@ -45,7 +45,7 @@ const Skills = () => {
           setAnimateSkills(true);
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.1 }
     );
 
     const skillsSection = document.getElementById('skills');
