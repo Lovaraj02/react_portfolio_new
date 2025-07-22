@@ -6,6 +6,32 @@ const Projects = () => {
 
   const projects = [
     {
+      name: "AI Impact on Cybersecurity",
+      description: "Developed a Django-based web application that detects cybersecurity threats such as DDoS, intrusion, and malware using machine learning models with over 80% accuracy. The app supports real-time data upload, model evaluation, and visualizations, and is deployed on Render using Gunicorn and Whitenoise.",
+      tech: [
+  "Django",
+  "Python",
+  "Scikit-learn",
+  "Pandas",
+  "NumPy",
+  "Matplotlib",
+  "Seaborn",
+  "MySQL",
+  "Gunicorn",
+  "Whitenoise"
+],
+      liveLink: "https://ai-impact-on-cybersecurity.onrender.com",
+      features: [
+  "Upload custom datasets in real-time",
+  "Classify cyber threats: DDoS, intrusion, and malware",
+  "Apply multiple ML models: Logistic Regression, Decision Tree, SVM, Gradient Boosting",
+  "Display evaluation metrics and performance (accuracy > 80%)",
+  "Interactive visualizations with Matplotlib and Seaborn",
+  "Deployed on Render with Gunicorn and Whitenoise"
+],
+      // image: "/public/assets/hungry.jpg"
+    },
+    {
       name: "Hungryy - Online Food Ordering App",
       description: "A full-stack food ordering application with user authentication, real-time order tracking, and payment integration.",
       tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT"],
