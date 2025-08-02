@@ -20,7 +20,7 @@ const Projects = () => {
   "Gunicorn",
   "Whitenoise"
 ],
-      liveLink: "https://ai-impact-on-cybersecurity.onrender.com",
+      liveLink: "https://ai-egov-cyber.onrender.com",
       features: [
   "Upload custom datasets in real-time",
   "Classify cyber threats: DDoS, intrusion, and malware",
