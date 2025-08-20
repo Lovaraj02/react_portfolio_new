@@ -8,27 +8,13 @@ const Projects = () => {
     {
       name: "AI Impact on Cybersecurity",
       description: "Developed a Django-based web application that detects cybersecurity threats such as DDoS, intrusion, and malware using machine learning models with over 80% accuracy. The app supports real-time data upload, model evaluation, and visualizations, and is deployed on Render using Gunicorn and Whitenoise.",
-      tech: [
-  "Django",
-  "Python",
-  "Scikit-learn",
-  "Pandas",
-  "NumPy",
-  "Matplotlib",
-  "Seaborn",
-  "MySQL",
-  "Gunicorn",
-  "Whitenoise"
-],
+      tech: ["Django","Python","Scikit-learn","Pandas","NumPy","Matplotlib","Seaborn","MySQL","Gunicorn","Whitenoise"],
       liveLink: "https://ai-egov-cyber.onrender.com",
-      features: [
-  "Upload custom datasets in real-time",
-  "Classify cyber threats: DDoS, intrusion, and malware",
+      features: ["Upload custom datasets in real-time","Classify cyber threats: DDoS, intrusion, and malware",
   "Apply multiple ML models: Logistic Regression, Decision Tree, SVM, Gradient Boosting",
   "Display evaluation metrics and performance (accuracy > 80%)",
   "Interactive visualizations with Matplotlib and Seaborn",
-  "Deployed on Render with Gunicorn and Whitenoise"
-],
+  "Deployed on Render with Gunicorn and Whitenoise"],
       // image: "/public/assets/hungry.jpg"
     },
     {
@@ -54,7 +40,24 @@ const Projects = () => {
       liveLink: "https://shopping-web-app-ten.vercel.app/",
       features: ["Product Catalog", "Shopping Cart", "Order Management", "User Reviews"],
       // image: "/public/assets/shop.avif"
-    }
+    },
+    {
+      name: "Talk-With-Me",
+      description: "A full-stack chat platform built with Mernstack and Socket.io that enables seamless real-time communication between users.",
+      tech: ["Socket.io,React.js", "Node.js", "Express.js", "MongoDB"],
+      liveLink: "https://talk-with-me-dun.vercel.app/chats",
+      features: ["Real-time Messaging","User Authentication","Group & Private Chats","Online/Offline Status","Scalable Architecture"],
+      // image: "/public/assets/shop.avif"
+    },
+    {
+      name: "Dynamic-Dashboard",
+      description: "An interactive dashboard application that provides real-time data visualization and management features with secure authentication.",
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Chart.js/Recharts"],
+      liveLink: "https://dashboard-kappa-one-78.vercel.app/auth/sign-in?redirectTo=/",
+      features: ["User Authentication", "Dynamic Data Visualization", "Interactive Charts", "Secure Backend Integration", "Responsive UI"],
+      // image: "/public/assets/dashboard.avif"
+}
+
   ];
 
   return (
