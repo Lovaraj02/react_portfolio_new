@@ -1,10 +1,11 @@
-
 import React, { useState, useEffect } from 'react';
+import Confetti from 'react-confetti'; // 🎉 import
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
   const [displayText, setDisplayText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(true); // 🎉 show on load
 
   const roles = [
     'Aspiring Software Developer',
@@ -34,8 +35,18 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, [displayText, isDeleting, currentRole, roles]);
 
+  useEffect(() => {
+    // 🎉 Auto-hide confetti after 3s
+    if (showConfetti) {
+      const timer = setTimeout(() => setShowConfetti(false), 20000);
+      return () => clearTimeout(timer);
+    }
+  }, [showConfetti]);
+
   return (
     <section id="hero" className="hero">
+      {showConfetti && <Confetti recycle={false} numberOfPieces={300} />} {/* 🎉 */}
+
       <div className="hero-container">
         <div className="hero-content">
           <div className="hero-text">
