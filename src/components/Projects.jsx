@@ -49,15 +49,37 @@ const Projects = () => {
       features: ["Real-time Messaging","User Authentication","Group & Private Chats","Online/Offline Status","Scalable Architecture"],
       // image: "/public/assets/shop.avif"
     },
-    {
-      name: "Dynamic-Dashboard",
-      description: "An interactive dashboard application that provides real-time data visualization and management features with secure authentication.",
-      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Chart.js/Recharts"],
-      liveLink: "https://dashboard-kappa-one-78.vercel.app/auth/sign-in?redirectTo=/",
-      features: ["User Authentication", "Dynamic Data Visualization", "Interactive Charts", "Secure Backend Integration", "Responsive UI"],
-      // image: "/public/assets/dashboard.avif"
-}
 
+    {
+  name: "JSON Tree Visualizer",
+  description: "An interactive web application that visualizes JSON data in a structured tree format, helping developers easily explore and understand nested objects and arrays. Built with a responsive and intuitive UI for smooth navigation.",
+  tech: ["React.js", "Node.js", "Express.js", "MongoDB", "HTML", "CSS", "JavaScript"],
+  liveLink: "https://json-visualizer-tree.vercel.app/",
+  features: [
+    "Visualize JSON data as expandable and collapsible trees",
+    "Paste or upload JSON data in real-time",
+    "Responsive and developer-friendly user interface",
+    "Backend powered by Node.js, Express.js, and MongoDB",
+    "Deployed on Vercel for fast and secure access"
+  ],
+  // image: "/public/assets/json-tree-visualizer.jpg"
+},
+
+    {
+  name: "MERN Dashboard",
+  description: "A full-stack admin dashboard application built using the MERN stack, featuring data visualization, user management, and theme customization with light and dark modes.",
+  tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Recharts", "Tailwind CSS"],
+  liveLink: "https://mern-dashboard-self.vercel.app/",
+  features: [
+    "Interactive data visualization using Recharts",
+    "User authentication and role-based access control",
+    "Dynamic theme switching (light/dark mode)",
+    "CRUD operations for users and data entities",
+    "Responsive and modern UI built with Tailwind CSS",
+    "Secure backend with JWT authentication and Express API"
+  ],
+  // image: "/public/assets/mern-dashboard.jpg"
+}
   ];
 
   return (

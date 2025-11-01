@@ -12,7 +12,7 @@ const CodingProfiles = () => {
     },
     {
       platform: "GeeksforGeeks",
-      achievement: "120+ Problems Solved",
+      achievement: "150+ Problems Solved",
       description: "Active problem solver with focus on data structures and algorithms",
       link: "https://www.geeksforgeeks.org/user/raju4502/",
       // icon: "💚"
