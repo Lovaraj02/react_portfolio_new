@@ -25,6 +25,12 @@ const Certifications = () => {
       issuer: "HackerRank",
       icon: <i class="fa-solid fa-file"></i>,
       link: "/certificates/sql.pdf"
+    },
+    {
+      title: "Oracle Certification",
+      issuer: "Oracle",
+      icon: <i class="fa-solid fa-file"></i>,
+      link: "/certificates/oracle.pdf"
     }
   ];
 
