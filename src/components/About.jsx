@@ -1,7 +1,28 @@
-
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const About = () => {
+  const [typingSpeed, setTypingSpeed] = useState(0);
+
+  useEffect(() => {
+    let start = 0;
+    const end = 60; // final WPM
+    const duration = 1500; // 1.5 seconds animation
+    const incrementTime = 20; // update every 20ms
+    const totalSteps = duration / incrementTime;
+    const increment = end / totalSteps;
+
+    const counter = setInterval(() => {
+      start += increment;
+      if (start >= end) {
+        start = end;
+        clearInterval(counter);
+      }
+      setTypingSpeed(Math.floor(start));
+    }, incrementTime);
+
+    return () => clearInterval(counter);
+  }, []);
+
   return (
     <section id="about" className="about">
       <div className="container">
@@ -13,7 +34,7 @@ const About = () => {
             </p>
             <div className="about-stats">
               <div className="stat">
-                <h3>60 WPM</h3>
+                <h3>{typingSpeed} WPM</h3>
                 <p>Typing Speed</p>
               </div>
               <div className="stat">

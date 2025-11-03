@@ -1,21 +1,22 @@
-
 import React from 'react';
 
 const Experience = () => {
   const experiences = [
     {
       company: "Internite Corporation",
-      role: "Frontend Web Developer Intern",
+      role: "Frontend Developer Intern",
       period: "July - August 2024",
-      description: "Developed responsive web applications using React, HTML, and CSS. Collaborated with the team to deliver high-quality user interfaces.",
-      technologies: ["React", "HTML", "CSS", "JavaScript"]
+      description:
+        "Built a Business Intelligence Dashboard Web App for real-time KPI monitoring and performance analysis with role-based access. Implemented interactive charts and responsive UI using React and REST APIs.",
+      technologies: ["React", "Node.js", "MongoDB", "Express.js", "JWT", "REST API"]
     },
     {
       company: "Verzeo & Zebo.AI",
       role: "Machine Learning Intern",
       period: "October - November 2022",
-      description: "Worked on real-time machine learning projects using Python. Implemented various ML algorithms and data processing techniques.",
-      technologies: ["Python", "Machine Learning", "Data Analysis"]
+      description:
+        "Worked on real-time machine learning projects using Python. Implemented supervised and unsupervised learning models and performed data preprocessing and visualization.",
+      technologies: ["Python", "Machine Learning", "Pandas", "NumPy", "Scikit-learn"]
     }
   ];
 
