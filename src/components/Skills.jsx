@@ -6,6 +6,7 @@ const Skills = () => {
   const [showConfetti, setShowConfetti] = useState(false); // 🎉 state
 
   const skillImages = {
+    "Spring Boot":'/skills/spring.jpg',
     "Node.js": '/skills/n.png',
     "Express.js": "/skills/ex.png",
     "MongoDB": "/skills/m.png",
@@ -23,6 +24,7 @@ const Skills = () => {
   };
 
   const skills = [
+    { name: "Spring Boot", level: 75, category: "Backend" },
     { name: "Node.js", level: 75, category: "Backend" },
     { name: "Express.js", level: 70, category: "Backend" },
     { name: "MongoDB", level: 75, category: "Backend" },
