@@ -3,6 +3,18 @@ import React from 'react';
 const Certifications = () => {
   const certifications = [
     {
+      title: "Oracle Certification",
+      issuer: "Oracle",
+      icon: <i class="fa-solid fa-file"></i>,
+      link: "/certificates/oracle.pdf"
+    },
+    {
+      title: "SQL Certification",
+      issuer: "HackerRank",
+      icon: <i class="fa-solid fa-file"></i>,
+      link: "/certificates/sql.pdf"
+    },
+    {
       title: "Python Certification",
       issuer: "Kaggle",
       icon: <i class="fa-brands fa-python"></i>,
@@ -14,24 +26,12 @@ const Certifications = () => {
       icon: <i class="fa-solid fa-laptop-code"></i>,
       link: "/certificates/ml.jpg"
     },
-    {
-      title: "AI & ML Certification",
-      issuer: "EduSkills",
-      icon: <i class="fa-solid fa-hexagon-nodes"></i>,
-      link: "/certificates/aws.pdf"
-    },
-    {
-      title: "SQL Certification",
-      issuer: "HackerRank",
-      icon: <i class="fa-solid fa-file"></i>,
-      link: "/certificates/sql.pdf"
-    },
-    {
-      title: "Oracle Certification",
-      issuer: "Oracle",
-      icon: <i class="fa-solid fa-file"></i>,
-      link: "/certificates/oracle.pdf"
-    }
+    // {
+    //   title: "AI & ML Certification",
+    //   issuer: "EduSkills",
+    //   icon: <i class="fa-solid fa-hexagon-nodes"></i>,
+    //   link: "/certificates/aws.pdf"
+    // }
   ];
 
   return (

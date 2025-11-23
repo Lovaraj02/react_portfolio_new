@@ -6,7 +6,8 @@ const Skills = () => {
   const [showConfetti, setShowConfetti] = useState(false); // 🎉 state
 
   const skillImages = {
-    "Spring Boot":'/skills/spring.jpg',
+    "Spring Boot":'/skills/sb.png',
+    "MySql":'/skills/sql.png',
     "Node.js": '/skills/n.png',
     "Express.js": "/skills/ex.png",
     "MongoDB": "/skills/m.png",
@@ -24,17 +25,18 @@ const Skills = () => {
   };
 
   const skills = [
+    { name: "Java", level: 80, category: "Languages" },
     { name: "Spring Boot", level: 75, category: "Backend" },
-    { name: "Node.js", level: 75, category: "Backend" },
-    { name: "Express.js", level: 70, category: "Backend" },
-    { name: "MongoDB", level: 75, category: "Backend" },
+    { name: "MySql", level: 70, category: "DataBase" },
+    // { name: "Node.js", level: 75, category: "Backend" },
+    // { name: "Express.js", level: 70, category: "Backend" },
+    // { name: "MongoDB", level: 75, category: "Backend" },
     { name: "REST APIs", level: 80, category: "Backend" },
     { name: "React.js", level: 80, category: "Frontend" },
     { name: "JavaScript", level: 85, category: "Frontend" },
     { name: "CSS", level: 90, category: "Frontend" },
     { name: "HTML", level: 95, category: "Frontend" },
-    { name: "C", level: 85, category: "Languages" },
-    { name: "Java", level: 80, category: "Languages" },
+    // { name: "C", level: 85, category: "Languages" },
     { name: "Python", level: 90, category: "Languages" },
     { name: "Git", level: 85, category: "Tools" },
     { name: "Postman", level: 80, category: "Tools" },

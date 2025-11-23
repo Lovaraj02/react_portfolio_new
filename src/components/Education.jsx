@@ -6,7 +6,7 @@ const Education = () => {
       institution: "Eluru College of Engineering and Technology",
       degree: "B.Tech in Artificial Intelligence & Data Science",
       period: "2021 - 2025",
-      cgpa: "7.84 CGPA",
+      cgpa: "7.89 CGPA",
       icon: "🎓"
     },
     {

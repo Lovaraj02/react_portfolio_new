@@ -15,40 +15,90 @@ const Projects = () => {
   "Display evaluation metrics and performance (accuracy > 80%)",
   "Interactive visualizations with Matplotlib and Seaborn",
   "Deployed on Render with Gunicorn and Whitenoise"],
-      // image: "/public/assets/hungry.jpg"
+      image: "/assets/Screenshot 2025-11-23 203423.png"
+
     },
-    {
-      name: "Hungryy - Online Food Ordering App",
-      description: "A full-stack food ordering application with user authentication, real-time order tracking, and payment integration.",
-      tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT"],
-      liveLink: "https://mern-hungry-app-ggs4.vercel.app/",
-      features: ["User Authentication", "Real-time Orders", "Payment Gateway", "Admin Dashboard"],
-      // image: "/public/assets/hungry.jpg"
-    },
-    {
-      name: "Netflix Clone",
-      description: "A Netflix-inspired streaming platform with movie browsing, search functionality, and user profiles.",
-      tech: ["React.js", "Node.js", "MongoDB", "TMDB API"],
-      liveLink: "https://netflixclone-cyan-six.vercel.app/",  
-      features: ["Movie Streaming", "Search & Filter", "User Profiles", "Responsive Design"],
-      // image: "/public/assets/netflix.png"
-    },
-    {
-      name: "Shopping Web App",
-      description: "An e-commerce platform with product catalog, shopping cart, and order management system.",
-      tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
-      liveLink: "https://shopping-web-app-ten.vercel.app/",
-      features: ["Product Catalog", "Shopping Cart", "Order Management", "User Reviews"],
-      // image: "/public/assets/shop.avif"
-    },
+    // {
+    //   name: "Hungryy - Online Food Ordering App",
+    //   description: "A full-stack food ordering application with user authentication, real-time order tracking, and payment integration.",
+    //   tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT"],
+    //   liveLink: "https://mern-hungry-app-ggs4.vercel.app/",
+    //   features: ["User Authentication", "Real-time Orders", "Payment Gateway", "Admin Dashboard"],
+    //   // image: "/public/assets/hungry.jpg"
+    // },
+    
+    // {
+    //   name: "Talk-With-Me",
+    //   description: "A full-stack chat platform built with Mernstack and Socket.io that enables seamless real-time communication between users.",
+    //   tech: ["Socket.io,React.js", "Node.js", "Express.js", "MongoDB"],
+    //   liveLink: "https://talk-with-me-dun.vercel.app/chats",
+    //   features: ["Real-time Messaging","User Authentication","Group & Private Chats","Online/Offline Status","Scalable Architecture"],
+    //   // image: "/public/assets/shop.avif"
+    // },
+
+
     {
       name: "Talk-With-Me",
-      description: "A full-stack chat platform built with Mernstack and Socket.io that enables seamless real-time communication between users.",
-      tech: ["Socket.io,React.js", "Node.js", "Express.js", "MongoDB"],
+      description: "A full-stack real-time chat platform built using Java Spring Boot WebSockets and React. Supports one-to-one chats, group conversations, and live status updates.",
+      tech: ["Spring Boot", "Java", "MySQL", "React.js", "WebSockets", "JWT"],
       liveLink: "https://talk-with-me-dun.vercel.app/chats",
-      features: ["Real-time Messaging","User Authentication","Group & Private Chats","Online/Offline Status","Scalable Architecture"],
-      // image: "/public/assets/shop.avif"
+      features: [
+        "Real-time Messaging (WebSockets)",
+        "User Authentication (JWT)",
+        "Private & Group Chats",
+        "Online/Offline Presence",
+        "Scalable Modular Architecture"
+      ],
+      image: "/assets/talk.png"
     },
+
+    {
+      name: "Hungryy - Online Food Ordering App",
+      description: "A full-stack food ordering platform built with Java Spring Boot and React. Users can browse menus, place orders, track them in real time, and complete payments securely.",
+      tech: ["Spring Boot", "Java", "MySQL", "React.js", "REST APIs", "JWT Security"],
+      liveLink: "https://mern-hungry-app-ggs4.vercel.app/",
+      features: [
+        "Secure User Authentication (JWT)",
+        "Menu Browsing & Cart System",
+        "Real-time Order Tracking (WebSockets)",
+        "Integrated Payment Flow",
+        "Admin Panel for Orders & Inventory"
+      ],
+      image: "/assets/hungry.png"
+    },
+
+
+    
+    {
+  name: "Shopping Web App",
+  description: "A full-stack e-commerce platform built with Java Spring Boot and React. It provides a product catalog, secure user authentication, a shopping cart system, and end-to-end order management.",
+  tech: ["Spring Boot", "Java", "MySQL", "React.js", "REST APIs", "JWT Security"],
+  liveLink: "https://shopping-web-app-ten.vercel.app/",
+  features: [
+    "Product Catalog with Search & Filters",
+    "Shopping Cart with Real-time Updates",
+    "Order Management System",
+    "User Authentication & Reviews"
+  ],
+  image: "/assets/sh.png"
+},
+{
+  name: "Netflix Clone",
+  description: "A Netflix-inspired streaming platform with movie browsing, search functionality, and user profiles.",
+  tech: ["React.js", "Node.js", "MongoDB", "TMDB API"],
+  liveLink: "https://netflixclone-cyan-six.vercel.app/",  
+  features: ["Movie Streaming", "Search & Filter", "User Profiles", "Responsive Design"],
+    image: "/assets/net.png"
+
+},
+    // {
+    //   name: "Shopping Web App",
+    //   description: "An e-commerce platform with product catalog, shopping cart, and order management system.",
+    //   tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    //   liveLink: "https://shopping-web-app-ten.vercel.app/",
+    //   features: ["Product Catalog", "Shopping Cart", "Order Management", "User Reviews"],
+    //   // image: "/public/assets/shop.avif"
+    // },
 
     {
   name: "JSON Tree Visualizer",
@@ -101,13 +151,13 @@ const Projects = () => {
           
           <div className="project-content">
             <div className="project-card">
-              {/* <div className="project-image-wrapper">
+              <div className="project-image-wrapper">
                 <img 
-                  // src={projects[activeProject].image} 
-                  // alt={projects[activeProject].name}
+                  src={projects[activeProject].image} 
+                  alt={projects[activeProject].name}
                   className="project-image"
                 />
-              </div> */}
+              </div>
               <h3>{projects[activeProject].name}</h3>
               <p>{projects[activeProject].description}</p>
               
