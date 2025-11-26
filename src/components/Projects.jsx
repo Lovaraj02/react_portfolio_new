@@ -36,6 +36,23 @@ const Projects = () => {
     //   // image: "/public/assets/shop.avif"
     // },
 
+    {
+      name: "Water Quality Monitoring System",
+      description: "A full-stack platform for reporting and managing water contamination issues. Citizens can submit complaints, while admins review, track, and analyze them with real-time insights.",
+      tech: ["Spring Boot", "Java", "MySQL", "React.js", "REST APIs", "Chart.js"],
+      liveLink: "https://water-quality-monitoring-eight.vercel.app/",
+      features: [
+        "User Complaint Submission Portal",
+        "Admin Dashboard for Review & Actions",
+        "Accept/Reject Workflow for Complaints",
+        "Secure Login with Custom Authentication API",
+        "Real-time Status Charts (Accepted/Rejected/Pending)",
+        "MySQL Database Integration with JPA",
+        "Smooth React–Spring Boot Connectivity (Axios + CORS)"
+      ],
+      image: "/assets/wqm.png"
+    },
+
 
     {
       name: "Talk-With-Me",
