@@ -18,23 +18,6 @@ const Projects = () => {
       image: "/assets/Screenshot 2025-11-23 203423.png"
 
     },
-    // {
-    //   name: "Hungryy - Online Food Ordering App",
-    //   description: "A full-stack food ordering application with user authentication, real-time order tracking, and payment integration.",
-    //   tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT"],
-    //   liveLink: "https://mern-hungry-app-ggs4.vercel.app/",
-    //   features: ["User Authentication", "Real-time Orders", "Payment Gateway", "Admin Dashboard"],
-    //   // image: "/public/assets/hungry.jpg"
-    // },
-    
-    // {
-    //   name: "Talk-With-Me",
-    //   description: "A full-stack chat platform built with Mernstack and Socket.io that enables seamless real-time communication between users.",
-    //   tech: ["Socket.io,React.js", "Node.js", "Express.js", "MongoDB"],
-    //   liveLink: "https://talk-with-me-dun.vercel.app/chats",
-    //   features: ["Real-time Messaging","User Authentication","Group & Private Chats","Online/Offline Status","Scalable Architecture"],
-    //   // image: "/public/assets/shop.avif"
-    // },
 
     {
       name: "Water Quality Monitoring System",
@@ -56,18 +39,28 @@ const Projects = () => {
 
     {
       name: "Talk-With-Me",
-      description: "A full-stack real-time chat platform built using Java Spring Boot WebSockets and React. Supports one-to-one chats, group conversations, and live status updates.",
-      tech: ["Spring Boot", "Java", "MySQL", "React.js", "WebSockets", "JWT"],
+      description: "A full-stack chat platform built with Mernstack and Socket.io that enables seamless real-time communication between users.",
+      tech: ["Socket.io,React.js", "Node.js", "Express.js", "MongoDB"],
       liveLink: "https://talk-with-me-dun.vercel.app/chats",
-      features: [
-        "Real-time Messaging (WebSockets)",
-        "User Authentication (JWT)",
-        "Private & Group Chats",
-        "Online/Offline Presence",
-        "Scalable Modular Architecture"
-      ],
+      features: ["Real-time Messaging","User Authentication","Group & Private Chats","Online/Offline Status","Scalable Architecture"],
       image: "/assets/talk.png"
     },
+
+
+    // {
+    //   name: "Talk-With-Me",
+    //   description: "A full-stack real-time chat platform built using Java Spring Boot WebSockets and React. Supports one-to-one chats, group conversations, and live status updates.",
+    //   tech: ["Spring Boot", "Java", "MySQL", "React.js", "WebSockets", "JWT"],
+    //   liveLink: "https://talk-with-me-dun.vercel.app/chats",
+    //   features: [
+    //     "Real-time Messaging (WebSockets)",
+    //     "User Authentication (JWT)",
+    //     "Private & Group Chats",
+    //     "Online/Offline Presence",
+    //     "Scalable Modular Architecture"
+    //   ],
+    //   image: "/assets/talk.png"
+    // },
 
     {
       name: "Hungryy - Online Food Ordering App",
@@ -83,6 +76,17 @@ const Projects = () => {
       ],
       image: "/assets/hungry.png"
     },
+
+
+
+     // {
+    //   name: "Hungryy - Online Food Ordering App",
+    //   description: "A full-stack food ordering application with user authentication, real-time order tracking, and payment integration.",
+    //   tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT"],
+    //   liveLink: "https://mern-hungry-app-ggs4.vercel.app/",
+    //   features: ["User Authentication", "Real-time Orders", "Payment Gateway", "Admin Dashboard"],
+    //   // image: "/assets/hungry.png"
+    // },
 
 
     
