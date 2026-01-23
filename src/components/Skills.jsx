@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Confetti from 'react-confetti'; // 🎉 import
+import Confetti from 'react-confetti'; 
 
 const Skills = () => {
   const [animateSkills, setAnimateSkills] = useState(false);
