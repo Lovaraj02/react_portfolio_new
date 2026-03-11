@@ -295,52 +295,83 @@ section {
   background: #111;
 } */
 
-.dark-mode .about {
-  background: #111;
+
+
+.about{
+  padding: 80px 20px;
 }
 
-.about-content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+/* Dark mode background */
+
+.dark-mode .about{
+  background:#111;
 }
 
-.about-text p {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  margin-bottom: 3rem;
-  color: white;
+.about-content{
+  max-width:1000px;
+  margin:0 auto;
+  text-align:center;
 }
 
-.about-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
+.about-text p{
+  font-size:1.2rem;
+  line-height:1.8;
+  margin-bottom:3rem;
+  color:#e5e7eb;
 }
 
-.stat {
-  padding: 2rem;
-  /* background: rgba(255, 255, 255, 0.2); */
-  border: 1px solid lightgray;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+/* Grid layout */
+
+.about-stats{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:2rem;
+  perspective:1000px;
 }
 
-.dark-mode .stat {
-  background: #222;
+/* 3D card */
+
+.stat{
+  padding:2.5rem;
+  border-radius:15px;
+
+  border:1px solid rgba(255,255,255,0.2);
+
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+
+  transform-style:preserve-3d;
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,0.35),
+  inset 0 1px 1px rgba(255,255,255,0.1);
+
+  transition:transform .25s ease, box-shadow .25s ease;
 }
 
-.stat:hover {
-  transform: translateY(-10px);
-  background: linear-gradient(135deg, #323648 0%, #573d70 100%);
+/* hover 3d lift */
 
+.stat:hover{
+
+  transform:rotateX(8deg) rotateY(-8deg) translateY(-10px) scale(1.03);
+
+  box-shadow:
+  0 25px 60px rgba(0,0,0,0.5),
+  inset 0 1px 1px rgba(255,255,255,0.15);
+
+  background:linear-gradient(135deg,#323648,#573d70);
 }
 
-.stat h3 {
-  font-size: 1.5rem;
-  color: #dbdff1;
-  margin-bottom: 0.5rem;
+.stat h3{
+  font-size:1.6rem;
+  color:#e0e7ff;
+  margin-bottom:8px;
+  transform:translateZ(40px);
+}
+
+.stat p{
+  color:#cbd5f5;
+  transform:translateZ(25px);
 }
 
 
