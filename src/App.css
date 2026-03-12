@@ -18,7 +18,6 @@ body {
 @keyframes rainbow {
   0% {
     background-color: #243B4A;
-    /* background-color: #1e1718; */
   }
   25% {
     background-color: #263944;
