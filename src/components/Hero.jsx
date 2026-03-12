@@ -9,7 +9,7 @@ const Hero = () => {
 
   const roles = [
     'Aspiring Software Developer',
-    'Full stack Developer',
+    'Full stack Developer❤️',
     'AI & ML Enthusiast'
   ];
 
@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-name">
-              Bandaru Jaya Lova Raju
+              Bandaru Jaya Lova Raju.
             </h1>
             <div className="hero-subtitle">
               <span className="typing-text">{displayText}</span>
