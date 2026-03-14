@@ -9,7 +9,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
       
-      // Update active section based on scroll position
+      // Update active section based on scroll position.
       const sections = ['hero', 'about', 'education', 'experience', 'projects', 'skills', 'certifications', 'coding-profiles', 'contact'];
       for (const section of sections) {
         const element = document.getElementById(section);
